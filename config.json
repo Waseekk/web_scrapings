@@ -1,0 +1,17 @@
+{
+  "mongodb_uri": "mongodb://localhost:27017/",
+  "database_name": "eat-right_counselor_marketing",
+  "collection_name": "nutrition profiles",
+  "batch_size": 50,
+  "upload_batch_size": 50,
+  "api_url": "https://www.eatright.org/api/find-a-nutrition-expert",
+  "zip_info": {
+    "start_zip": 501,
+    "end_zip": 99950,
+    "chunk_size": 500,
+    "excluded_ranges": [
+      [0, 500]
+    ],
+    "zip_list_number": 197
+  }
+}
